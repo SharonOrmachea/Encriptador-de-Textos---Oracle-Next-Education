@@ -24,7 +24,7 @@ h1{ /*Titulo del Encabezado*/
     margin: 0;
     display: inline-block;
     text-shadow: 0 0 5px orangered, 0 0 15px orangered, 0 0 10px orangered, 0 0 30px orangered;
-    color: #ffffff; /*#735439*/
+    color: #ffffff;
 }
 
 .fliker1{
