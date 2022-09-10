@@ -1,7 +1,7 @@
 /*Inicio del Codigo para el Encabezado*/
 
 body{
-    background-image: url("/Imagenes/fondo3-3.jpg");
+    background-image: url("/imagenes/fondo3-3.jpg");
     background-size: 100%;
 }
 
@@ -239,7 +239,7 @@ h2{
 
 @media(max-width: 768px){ /*Tablet*/
     body{
-        background-image: url("/Imagenes/Tablet.jpg");
+        background-image: url("/imagenes/Tablet.jpg");
         /*background-size: 100%;*/
     }
     
@@ -349,7 +349,7 @@ h2{
 @media(max-width: 720px){
     
     body{
-        background-image: url("/Imagenes/Tablet.jpg");
+        background-image: url("/imagenes/Tablet.jpg");
         /*background-size: 100%;*/
     }
 
@@ -433,7 +433,7 @@ h2{
 
 @media(max-width: 480px){
     body{
-        background-image: url("/Imagenes/Celular-2.jpg");
+        background-image: url("/imagenes/Celular-2.jpg");
         background-size: 100%;
     }
 
