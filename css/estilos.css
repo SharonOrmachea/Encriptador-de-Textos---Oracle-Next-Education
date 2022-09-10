@@ -239,7 +239,7 @@ h2{
 
 @media(max-width: 768px){ /*Tablet*/
     body{
-        background-image: url('/imagenes/Tablet.png');
+        background-image: url('/imagenes/tablet.png');
         /*background-size: 100%;*/
     }
     
@@ -349,7 +349,7 @@ h2{
 @media(max-width: 720px){
     
     body{
-        background-image: url('/imagenes/Tablet.png');
+        background-image: url('/imagenes/tablet.png');
         /*background-size: 100%;*/
     }
 
@@ -433,7 +433,7 @@ h2{
 
 @media(max-width: 480px){
     body{
-        background-image: url('/imagenes/Celular.png');
+        background-image: url('/imagenes/celular.png');
         background-size: 100%;
     }
 
