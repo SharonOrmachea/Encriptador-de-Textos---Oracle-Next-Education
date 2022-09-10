@@ -1,7 +1,7 @@
 /*Inicio del Codigo para el Encabezado*/
 
 body{
-    background-image: url('https://images.alphacoders.com/736/736461.png');
+    background-image: url('/fondo3-3.png');
     background-size: 100%;
 }
 
@@ -239,7 +239,7 @@ h2{
 
 @media(max-width: 768px){ /*Tablet*/
     body{
-        background: url('imagenes/tablet.png');
+        background: url('tablet.png');
         /*background-size: 100%;*/
     }
     
@@ -349,7 +349,7 @@ h2{
 @media(max-width: 720px){
     
     body{
-        background: url('imagenes/tablet.png');
+        background: url('/tablet.png');
         /*background-size: 100%;*/
     }
 
@@ -433,7 +433,7 @@ h2{
 
 @media(max-width: 480px){
     body{
-        background: url('imagenes/celular.png');
+        background: url('/celular.png');
         background-size: 100%;
     }
 
