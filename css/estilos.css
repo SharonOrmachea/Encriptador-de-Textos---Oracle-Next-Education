@@ -3,10 +3,7 @@
 body{
 
     background-image: url('../imagenes/fondo3-3.png');
-    background-size: 80%;
-    background-image: url('../fondo3-3.png');
     background-size: 100%;
-
 }
 
 header{ /*Fondo del Encabezado */
@@ -244,7 +241,7 @@ h2{
 @media(max-width: 768px){ /*Tablet*/
     body{
         background-image: url('../imagenes/tablet.png');
-        /*background-size: 100%;*/
+        background-size: 100%;
     }
     
     h1{
@@ -353,12 +350,8 @@ h2{
 @media(max-width: 720px){
     
     body{
-<<<<<<< HEAD
         background-image: url('../imagenes/tablet.png');
-=======
-        background-image: url('../tablet.png');
->>>>>>> 48d46312a66ba9683e1a49696109f427e316319d
-        /*background-size: 100%;*/
+        background-size: 100%;
     }
 
     h1{
@@ -441,11 +434,7 @@ h2{
 
 @media(max-width: 480px){
     body{
-<<<<<<< HEAD
         background-image: url('../imagenes/celular.png');
-=======
-        background-image: url('../celular.png');
->>>>>>> 48d46312a66ba9683e1a49696109f427e316319d
         background-size: 100%;
     }
 
