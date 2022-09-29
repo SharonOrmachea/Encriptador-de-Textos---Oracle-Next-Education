@@ -238,116 +238,7 @@ h2{
 /*-------------------------------------------------------------------------------------*/
 /*Inicio del Responsive*/
 
-@media(max-width: 768px){ /*Tablet*/
-    body{
-        background-image: url('../imagenes/tablet.png');
-        background-size: 100%;
-    }
-    
-    h1{
-        font-size: 35px;
-        margin-bottom: 1%;
-    }
-
-    .ingreseTexto{
-        width: 75%;
-        height: 380px;
-        margin: 3% 0 5% 8%;
-    }
-
-    .cajaEncriptador{
-        position: relative;
-        display: inline-block;
-        width: 30%;
-        height: 55px;
-        left: 18%;
-        margin: 1% 1% 0% 0%;
-    }
-
-    #encriptar{
-        letter-spacing: 3px;
-        font-size: 30px;
-
-    }
-
-    #encriptar:hover{
-        background: #02f6ff;
-        box-shadow: 0 0 10px #02f6ff, 0 0 40px #02f6ff, 0 0 80px #02f6ff;
-        border-color: #ffffff;
-        font-size: 30px;
-    }
-
-    .cajaDesencriptador{
-        position: relative;
-        display: inline-block;
-        width: 30%;
-        height: 55px;
-        left: 25%;
-    }
-
-    #desencriptar:hover{
-        background: #E372F2;
-        box-shadow: 0 0 10px #E372F2, 0 0 40px #E372F2, 0 0 80px #E372F2;
-        border-color: #ffffff;
-        font-size: 30px;
-    }
-
-    #desencriptar{
-        font-size: 30px;
-    }
-    
-    .aside{
-        width: 84%;
-        height: 380px;
-        right: 2%;
-        margin: 6% 4% 0 0;
-    }
-
-    .cuadroDeTexto{
-        width: 90%;
-        height: 290px;
-        margin: 1% 0 1% 5%;
-        
-    }
-
-    #miku-Michi{
-        width: 60%;
-        bottom: 5%;
-        top: 10%;
-        left: 20%;
-        padding: 0;
-        margin: 0;
-    } 
-
-    .boton{
-        font-size: 25px;
-    }
-
-    .cajaCopy{
-        width: 35%;
-        margin: 49% 0% 0 32%;
-        padding: 0%;
-    } 
-    
-    #copy{
-        width: 100%;
-    }
-
-    .parrafo{
-        display: none;
-    }
-
-    .fliker3{
-        width: 90%;
-        font-size: 35px;
-        position: relative;
-        margin: 10% 0% 2% 1%;
-       
-    }
-
-}
-
-@media(max-width: 720px){
+@media(max-width: 720px){ /*tablet*/
     
     body{
         background-image: url('../imagenes/tablet.png');
@@ -362,56 +253,66 @@ h2{
     .ingreseTexto{
         width: 65%;
         height: 235px;
-        margin: 3% 0 5% 15%;
+        margin: 3% 0 0% 15%;
     }
 
     .cajaEncriptador{
-        width: 28%;
-        height: 45px;
+        width: 30%;
+        height: 60px;
         position: relative;
         display: inline-block;
-        left: 25%;
-        margin: 3% 0% 0% 0%;
+        left: 20%;
+        margin: 10% 0% 10% 0%;
     }
 
     .cajaDesencriptador{
-        
+        width: 30%;
+        height: 60px;
         position: relative;
         display: inline-block;
-        width: 28%;
-        height: 45px;
         left: 26%;
+        margin: 10% 0% 10% 0%;
+    }
+
+    #desencriptar:hover{
+        font-size: 30px;
         
+    }
+
+    #encriptar:hover{
+        font-size: 30px;
     }
 
     .aside{
         width: 73%;
         height: 250px;
         right: 2%;
-        margin: 10% 8% 0 0;
+        margin: 0% 8% 0 0;
+        box-shadow: inset 0 0 30px #02f6ff, 0 0 30px #02f6ff, 0 0 50px #02f6ff, 0 0 50px #02f6ff;
     }
 
     .cuadroDeTexto{
         width: 90%;
         height: 190px;
-        margin: 1% 0 1% 5%;
-        
+        margin: 1% 0 1% 5%; 
     }
 
     #miku-Michi{
-        width: 60%;
-        bottom: 5%;
-        left: 19%;
+        width: 50%;
+        top: 20px;
+        left: 25%;
         padding: 0;
         margin: 0;
     } 
 
     .boton{
-        font-size: 25px;
+        font-size: 28px; 
     }
+
+
     .cajaCopy{
         width: 35%;
-        margin: 40% 0% 0 32%;
+        margin: 35% 0% 0 32%;
         padding: 0%;
     } 
     
@@ -435,7 +336,7 @@ h2{
 @media(max-width: 480px){
     body{
         background-image: url('../imagenes/celular.png');
-        background-size: 100%;
+        background-size: 105%;
     }
 
     h1{
@@ -455,34 +356,30 @@ h2{
     }
 
     .cajaEncriptador{
-        width: 40%;
+        width: 60%;
         height: 55px;
         position: relative;
         display: inline-block;
-        left: 8%;
+        left: 24%;
         margin: 3% 0% 0% 0%;
     }
 
     .cajaDesencriptador{
-        width: 40%;
+        width: 60%;
+        height: 55px;
         position: relative;
         display: inline-block;
-        height: 55px;
-        left: 13%;
+        top: 15px;
+        left: 24%;
+        margin-bottom: 12px;
         
-    }
-
-    .aside{
-        width: 73%;
-        height: 250px;
-        right: 2%;
-        margin: 10% 8% 0 0;
     }
 
     .cuadroDeTexto{
         width: 90%;
         height: 175px;
-        margin: 1% 0 1% 5%;        
+        margin: 1% 0 1% 5%;    
+        text-shadow: 0 0 1px rgb(238, 0, 83), 0 0 1px rgb(238, 0, 83), 0 0 10px rgb(238, 0, 83), 0 0 10px rgb(238, 0, 83);    
     }
 
     #miku-Michi{
@@ -492,9 +389,6 @@ h2{
         left: 10%;
     } 
 
-    .boton{
-        font-size: 25px;
-    }
     .cajaCopy{
         width: 60%;
         margin: 55% 15% 0 20%;
@@ -515,5 +409,21 @@ h2{
         position: relative;
         margin: 5% 0% 2% 1%;
        
+    }
+
+    #encriptar{
+        font-size: 28px;
+    }
+
+    #desencriptar{
+        font-size: 28px;
+    }
+
+    .aside{
+        width: 73%;
+        height: 250px;
+        right: 2%;
+        margin: 10% 8% 0 0;
+        box-shadow: inset 0 0 20px #02f6ff, 0 0 20px #02f6ff, 0 0 50px #02f6ff, 0 0 50px #02f6ff;
     }
 }
