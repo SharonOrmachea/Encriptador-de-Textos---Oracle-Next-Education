@@ -271,15 +271,18 @@ h2{
         position: relative;
         display: inline-block;
         left: 26%;
-        margin: 10% 0% 10% 0%;
+        margin: 10% 10% 10% 0%;
     }
 
-    #desencriptar:hover{
+    .boton{
+        font-size: 28px; 
+    }
+
+    #encriptar:active{
         font-size: 30px;
-        
     }
 
-    #encriptar:hover{
+    #desencriptar:active{
         font-size: 30px;
     }
 
@@ -304,11 +307,6 @@ h2{
         padding: 0;
         margin: 0;
     } 
-
-    .boton{
-        font-size: 28px; 
-    }
-
 
     .cajaCopy{
         width: 35%;
