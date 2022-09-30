@@ -156,12 +156,29 @@ h1{ /*Titulo del Encabezado*/
     height: 100%;
 }
 
-#encriptar:hover{
-    background: #02f6ff;
-    box-shadow: 0 0 10px #02f6ff, 0 0 40px #02f6ff, 0 0 80px #02f6ff;
-    border-color: #ffffff;
-    font-size: 35px;
+@media (hover: hover){
+    #encriptar:hover{
+        background: #02f6ff;
+        box-shadow: 0 0 10px #02f6ff, 0 0 40px #02f6ff, 0 0 80px #02f6ff;
+        border-color: #ffffff;
+        font-size: 35px;
+    }
+
+    #desencriptar:hover{
+        background: #E372F2;
+        box-shadow: 0 0 10px #E372F2, 0 0 40px #E372F2, 0 0 80px #E372F2;
+        border-color: #ffffff;
+        font-size: 35px;
+    }
+
+    #copy:hover{
+        background: #0404e2;
+        box-shadow: 0 0 10px #0404e2, 0 0 40px #0404e2, 0 0 80px #0404e2;
+        border-color: #ffffff;
+        font-size: 35px;
+    }
 }
+
 
 #encriptar:active{
     background: #4040fb;
@@ -176,13 +193,6 @@ h1{ /*Titulo del Encabezado*/
     right: 5%;
     width: 100%;
     height: 100%;
-}
-
-#desencriptar:hover{
-    background: #E372F2;
-    box-shadow: 0 0 10px #E372F2, 0 0 40px #E372F2, 0 0 80px #E372F2;
-    border-color: #ffffff;
-    font-size: 35px;
 }
 
 #desencriptar:active{
@@ -202,13 +212,6 @@ h1{ /*Titulo del Encabezado*/
     background: #0404e2ab;
     transition: 0.2s;
     display: none;
-}
-
-#copy:hover{
-    background: #0404e2;
-    box-shadow: 0 0 10px #0404e2, 0 0 40px #0404e2, 0 0 80px #0404e2;
-    border-color: #ffffff;
-    font-size: 35px;
 }
 
 #copy:active{
@@ -256,22 +259,27 @@ h2{
         margin: 3% 0 0% 15%;
     }
 
-    .cajaEncriptador{
-        width: 30%;
-        height: 60px;
+    .ambos{
+        margin: 8% 0 5% 0;
         position: relative;
+    }
+
+    .cajaEncriptador{
+        width: 35%;
+        height: 60px;
+        position: absolute;
         display: inline-block;
-        left: 20%;
-        margin: 10% 0% 10% 0%;
+        left: 16%;
+        
     }
 
     .cajaDesencriptador{
-        width: 30%;
+        width: 35%;
         height: 60px;
-        position: relative;
+        position: absolute;
         display: inline-block;
-        left: 26%;
-        margin: 10% 10% 10% 0%;
+        left: 55%;
+        
     }
 
     .boton{
@@ -279,16 +287,17 @@ h2{
     }
 
     #encriptar:active{
-        font-size: 30px;
+        font-size: 32px;
     }
 
     #desencriptar:active{
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .aside{
         width: 73%;
         height: 250px;
+        top: 170px;
         right: 2%;
         margin: 0% 8% 0 0;
         box-shadow: inset 0 0 30px #02f6ff, 0 0 30px #02f6ff, 0 0 50px #02f6ff, 0 0 50px #02f6ff;
@@ -318,6 +327,10 @@ h2{
         width: 100%;
     }
 
+    #copy:active{
+        font-size: 32px;
+    }
+
     .parrafo{
         display: none;
     }
@@ -327,11 +340,12 @@ h2{
         font-size: 25px;
         position: relative;
         margin: 5% 0% 2% 1%;
-       
+        top: 180px;
     }
+
 }
 
-@media(max-width: 480px){
+@media(max-width: 480px){ /*celular*/
     body{
         background-image: url('../imagenes/celular.png');
         background-size: 105%;
@@ -353,24 +367,26 @@ h2{
         font-size: 30px;
     }
 
+    .ambos{
+        position: relative;
+        background-color: #02f6ff;
+    }
+
     .cajaEncriptador{
         width: 60%;
         height: 55px;
-        position: relative;
+        position: absolute;
         display: inline-block;
         left: 24%;
-        margin: 3% 0% 0% 0%;
     }
 
     .cajaDesencriptador{
         width: 60%;
         height: 55px;
-        position: relative;
+        position: absolute;
         display: inline-block;
-        top: 15px;
+        top: 80px;
         left: 24%;
-        margin-bottom: 12px;
-        
     }
 
     .cuadroDeTexto{
@@ -383,14 +399,15 @@ h2{
     #miku-Michi{
         width: 80%;
         bottom: 5%;
-        top: 7%;
+        top: 17%;
         left: 10%;
     } 
 
     .cajaCopy{
         width: 60%;
-        margin: 55% 15% 0 20%;
-        padding: 0%;
+        margin: 70% 15% 0 20%;
+        
+        
     } 
     
     #copy{
