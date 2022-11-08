@@ -1,7 +1,6 @@
 /*Inicio del Codigo para el Encabezado*/
 
 body{
-
     background-image: url('../imagenes/fondoNegro.jpg');
     background-size: 100%;
 }
@@ -270,7 +269,6 @@ h2{
         position: absolute;
         display: inline-block;
         left: 16%;
-        
     }
 
     .cajaDesencriptador{
@@ -279,7 +277,6 @@ h2{
         position: absolute;
         display: inline-block;
         left: 55%;
-        
     }
 
     .boton{
@@ -406,8 +403,6 @@ h2{
     .cajaCopy{
         width: 60%;
         margin: 70% 15% 0 20%;
-        
-        
     } 
     
     #copy{
@@ -423,7 +418,6 @@ h2{
         font-size: 20px;
         position: relative;
         margin: 5% 0% 2% 1%;
-       
     }
 
     #encriptar{
