@@ -2,7 +2,7 @@
 
 body{
 
-    background-image: url('../imagenes/fondo3-3.png');
+    background-image: url('../imagenes/fondoNegro.jpg');
     background-size: 100%;
 }
 
@@ -57,7 +57,7 @@ h1{ /*Titulo del Encabezado*/
     outline: none;
     background: none;
     border-color: #ffffff;
-    box-shadow: inset 0 0 50px #E052F2, 0 0 50px #E052F2, 0 0 50px #E052F2, 0 0 50px #E052F2;
+    box-shadow: inset 0 0 50px #E052F2, 0 0 40px #E052F2, 0 0 40px #E052F2, 0 0 40px #E052F2;
     resize: none;
     border-radius: 25px;
 }
@@ -78,7 +78,7 @@ h1{ /*Titulo del Encabezado*/
     border-radius: 25px;
     background-color: none; /*#4c0bd98a;*/
     margin-right: 8%;
-    box-shadow: inset 0 0 50px #02f6ff, 0 0 50px #02f6ff, 0 0 50px #02f6ff, 0 0 50px #02f6ff;
+    box-shadow: inset 0 0 50px #02f6ff, 0 0 40px #02f6ff, 0 0 40px #02f6ff, 0 0 40px #02f6ff;
     border-style: solid;
 }
 
@@ -244,7 +244,7 @@ h2{
 @media(max-width: 720px){ /*tablet*/
     
     body{
-        background-image: url('../imagenes/tablet.png');
+        background-image: url('../imagenes/fondoNegro.jpg');
         background-size: 100%;
     }
 
@@ -347,7 +347,7 @@ h2{
 
 @media(max-width: 480px){ /*celular*/
     body{
-        background-image: url('../imagenes/celular.png');
+        background-image: url('../imagenes/fondoNegro.jpg');
         background-size: 105%;
     }
 
